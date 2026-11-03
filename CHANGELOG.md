@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-03
+### Added
+- Thêm phương thức sắp xếp giỏ hàng `sort_by_title()` và `sort_by_cost()` vào `Cart`.
+- Thêm hàm `search_by_category()` trong `aims.search` để tìm kiếm DVD theo thể loại.
+
 ## [1.0.0] - 2026-11-03
 ### Added
 - Phương thức `Cart.print_cart()` để in thông tin chi tiết các đĩa trong giỏ hàng và xử lý giỏ hàng trống.
