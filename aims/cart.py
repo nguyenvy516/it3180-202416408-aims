@@ -27,6 +27,9 @@ class Cart:
         return sum(item.cost for item in self.items)
 
     def print_cart(self):
+        if not self.items:
+            print("The cart is empty")
+            return
         print("***********************CART***********************")
         print("Ordered Items:")
         for i, item in enumerate(self.items, 1):
