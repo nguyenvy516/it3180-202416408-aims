@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-03
+### Fixed
+- Sửa lỗi search_by_title phân biệt hoa thường (#20)
+
 ## [1.0.0] - 2026-11-03
 ### Added
 - Phương thức `Cart.print_cart()` để in thông tin chi tiết các đĩa trong giỏ hàng và xử lý giỏ hàng trống.
