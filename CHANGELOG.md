@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Thêm phương thức sắp xếp giỏ hàng `sort_by_title()` và `sort_by_cost()` vào `Cart`.
 - Thêm hàm `search_by_category()` trong `aims.search` để tìm kiếm DVD theo thể loại.
+- Bổ sung quy trình CI tự động với GitHub Actions trong `.github/workflows/ci.yml`.
+
+## [1.0.1] - 2026-11-03
+### Fixed
+- Sửa lỗi `search_by_title` phân biệt hoa thường (chuyển sang không phân biệt hoa thường - case-insensitive) (#20).
 
 ## [1.0.0] - 2026-11-03
 ### Added
